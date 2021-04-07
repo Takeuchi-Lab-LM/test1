@@ -2,5 +2,6 @@
 imada
 大岡です。
 takano
+<<<<<<< HEAD
 matumur
 panyuwei
