@@ -9,5 +9,5 @@ seq = ("グローバリゼーションによって人々の賃金格差は")
 inputs = tokenizer.encode(seq, return_tensors='pt')
 outputs = model.generate(inputs, do_sample=True, max_length=100, num_return_sequences=5)
 
-text = tokenizer.decode(outputs[0], skip_special_tokens=True)
-print(text)
+for bun in outputs :
+    print(tokenizer.decode(bun))
